@@ -1,0 +1,1222 @@
+@charset "utf-8";
+
+/**************************************************
+usces
+**************************************************/
+
+/* 【member】 --------------- */
+
+.header_explanation,
+.footer_explanation {
+width:100%;
+text-align:center;
+float:left;
+}
+
+.footer_explanation {
+margin-top:40px;
+}
+
+.header_explanation ul {
+width:100%;
+margin-bottom:40px;
+text-align:left;
+float:left;
+}
+
+.error_message {
+width:100%;
+margin-bottom:40px;
+color:red;
+float:left;
+}
+
+table.customer_form,
+table#confirm_table {
+width:100%;
+border-collapse:collapse;
+float:left;
+}
+
+table.customer_form em {
+color:red;
+}
+
+table.customer_form th,
+table#confirm_table th {
+width:30%;
+padding:10px;
+background:#e6e6e6;
+border-bottom:2px solid #fff;
+text-align:left;
+font-weight:bold;
+vertical-align:middle!important;
+}
+
+table.customer_form td,
+table#confirm_table td {
+width:70%;
+padding:10px;
+border-bottom:2px solid #fff;
+vertical-align:middle!important;
+}
+
+table.customer_form input[type="text"],
+table.customer_form input[type="password"],
+table.customer_form input[type="url"],
+table.customer_form input[type="tel"],
+table.customer_form input[type="number"],
+table.customer_form input[type="range"],
+table.customer_form input[type="date"],
+table.customer_form input[type="email"],
+table.customer_form textarea,
+table.customer_form select {
+width:100%;
+padding:8px 5px;
+background:#f0f0f0;
+border:1px solid #e6e6e6;
+box-sizing:border-box;
+transition:0.7s;
+-webkit-transition:0.7s;
+-moz-transition:0.7s;
+-o-transition:0.7s;
+-ms-transition:0.7s;
+}
+
+table.customer_form input[type="text"]:hover,
+table.customer_form input[type="password"]:hover,
+table.customer_form input[type="url"]:hover,
+table.customer_form input[type="tel"]:hover,
+table.customer_form input[type="number"]:hover,
+table.customer_form input[type="range"]:hover,
+table.customer_form input[type="date"]:hover,
+table.customer_form input[type="email"]:hover,
+table.customer_form textarea:hover,
+table.customer_form select:hover,
+#cart input.used_point:hover {
+background:#fff;
+border:1px solid #ccc;
+}
+
+table.customer_form input[type="checkbox"],
+table.customer_form input[type="radio"] {
+width:auto!important;
+}
+
+#main .send {
+width:100%;
+margin-top:30px;
+text-align:center;
+float:left;
+}
+
+#usces-page #inside-cart .send input,
+#usces-page #delivery-info .send input,
+#usces-page #info-confirm .send input,
+#usces-page #customer-info .send input,
+.completion-link p a,
+.completion-link div a,
+#cart_completion .send a {
+width:200px;
+padding:10px 15px;
+background:#fff;
+font-weight:bold;
+cursor:pointer;
+outline:none;
+transition:0.7s;
+-webkit-transition:0.7s;
+-moz-transition:0.7s;
+-o-transition:0.7s;
+-ms-transition:0.7s;
+}
+
+#usces-page #inside-cart .send input:hover,
+#usces-page #delivery-info .send input:hover,
+#usces-page #info-confirm .send input:hover,
+#usces-page #customer-info .send input:hover,
+.completion-link p a:hover,
+.completion-link div a:hover,
+#cart_completion .send a:hover {
+border:1px solid #fff;
+color:#fff;
+}
+
+#memberinfo h3 {
+width:100%;
+margin-bottom:20px;
+text-align:left;
+font-size:16px;
+color:#fff;
+position:relative;
+float:left;
+}
+
+#memberinfo h3 span {
+width:100%;
+padding:8px 5px 8px 0;
+background:url(../images/title.png) repeat;
+float:left;
+box-sizing:border-box;
+}
+
+#memberinfo h3 span:before {
+padding:2px 2px 2px 4px;
+color:#fff;
+font-size:22px;
+font-family:"dashicons";
+content:"\f147";
+vertical-align:-0.22em!important;
+}
+
+.member_submenu .edit_member a,
+.member_submenu .logout_member a,
+#usces-page-in p.member-submit {
+width:200px;
+margin:10px auto 20px;
+background:#fff;
+cursor:pointer;
+position:relative;
+z-index:2;
+overflow:hidden;
+float:none;
+display:inline-block;
+}
+
+#usces-page-in p.member-submit input {
+width:100%;
+padding:10px 0;
+background:none;
+border:none;
+font-weight:bold;
+color:#727272;
+cursor:pointer;
+outline:none;
+display:inline-block;
+}
+
+.member_submenu .edit_member a:hover,
+.member_submenu .logout_member a:hover,
+#usces-page-in p.member-submit input:hover {
+color:#fff;
+}
+
+.member_submenu .edit_member a:before,
+.member_submenu .logout_member a:before,
+#usces-page-in p.member-submit:before {
+margin-right:0!important;
+letter-spacing:0!important;
+content:""!important;
+}
+
+.member_submenu .edit_member a::after,
+.member_submenu .logout_member a::after,
+#usces-page-in p.member-submit::after {
+top:0;
+left:0;
+width:100%;
+height:100%;
+transform:scale(0.5);
+-webkit-transform:scale(0.5);
+-moz-transform:scale(0.5);
+}
+
+.member_submenu .edit_member a:hover::after,
+.member_submenu .logout_member a:hover::after,
+#usces-page-in p.member-submit:hover::after {
+transform:scale(1);
+-webkit-transform:scale(1);
+-moz-transform:scale(1);
+}
+
+.member_submenu .edit_member a::before,
+.member_submenu .logout_member a::before,
+.member_submenu .edit_member a::after,
+.member_submenu .logout_member a::after,
+#usces-page-in p.member-submit::before,
+#usces-page-in p.member-submit::after {
+position:absolute;
+z-index:-1;
+display:block;
+content:'';
+}
+
+.member_submenu .edit_member a,
+.member_submenu .logout_member a,
+.member_submenu .edit_member a::before,
+.member_submenu .logout_member a::before,
+.member_submenu .edit_member a::after,
+.member_submenu .logout_member a::after,
+#usces-page-in p.member-submit,
+#usces-page-in p.member-submit::before,
+#usces-page-in p.member-submit::after {
+box-sizing:border-box;
+transition:all 0.3s;
+-webkit-transition:all 0.3s;
+-moz-transition:all 0.3s;
+}
+
+/* -------------------------------------------------------------- */
+
+/* 【newmember】 --------------- */
+
+#memberpages #newmember #name_row td,
+#memberpages #newmember #furikana_row td {
+width:50%!important;
+display:inline-block;
+box-sizing:border-box;
+}
+
+#memberpages #newmember #name_row td input,
+#memberpages #newmember #furikana_row input {
+width:200px!important;
+margin-left:10px;
+}
+
+#memberpages #newmember #zipcode_row input,
+#memberpages #newmember #address1_row input,
+#memberpages #newmember #address2_row input,
+#memberpages #newmember #address3_row input,
+#memberpages #newmember #tel_row input,
+#memberpages #newmember #fax_row input {
+margin-bottom:10px;
+}
+
+#memberpages #newmember #search_zipcode {
+margin-right:10px;
+}
+
+#memberpages .memberpages-in {
+width:100%;
+margin-top:40px;
+text-align:center;
+float:left;
+}
+
+#memberpages .link {
+width:100%;
+margin-top:40px;
+float:left;
+}
+
+#memberpages .link p {
+width:100%;
+float:left;
+}
+
+#memberpages .link a {
+float:left;
+}
+
+#memberpages .link a:before {
+font-family:"dashicons";
+content:"\f522";
+vertical-align:middle!important;
+}
+
+/* -------------------------------------------------------------- */
+
+
+/* 【login lostmemberpassword changepassword】 --------------- */
+
+#memberpages .whitebox {
+width:100%;
+text-align:center;
+float:left;
+}
+
+#memberpages div.loginbox {
+width:500px;
+margin:0 auto;
+text-align:center;
+}
+
+#memberpages .loginbox-in {
+width:458px;
+padding:20px;
+float:left;
+}
+
+#loginform p {
+width:100%;
+margin-bottom:10px;
+float:left;
+}
+
+#loginform p.forgetmenot {
+width:100%;
+margin:20px 0 10px;
+float:left;
+}
+
+#memberpages .loginbox-in p.nav {
+width:100%;
+text-align:left;
+float:left;
+}
+
+#memberpages .loginbox-in p.nav a {
+float:left;
+}
+
+#memberpages .loginbox-in p.nav a:before {
+font-family:"dashicons";
+content:"\f522";
+vertical-align:middle!important;
+}
+
+#loginform span.left {
+width:128px;
+padding-top:7px;
+text-align:left;
+font-weight:bold;
+float:left;
+}
+
+#loginform input#loginmail,
+#loginform input#loginpass,
+#loginform input#loginpass1,
+#loginform input#loginpass2 {
+width:330px;
+padding:8px 5px;
+background:#f0f0f0;
+border:1px solid #e6e6e6;
+box-sizing:border-box;
+transition:0.7s;
+-webkit-transition:0.7s;
+-moz-transition:0.7s;
+-o-transition:0.7s;
+-ms-transition:0.7s;
+}
+
+#loginform input:placeholder-shown {
+color:#cdcdcd;
+}
+
+#loginform input::-moz-input-placeholder {
+color:#cdcdcd;
+}
+
+#loginform input::-webkit-input-placeholder {
+color:#cdcdcd;
+}
+
+#loginform input:-ms-input-placeholder {
+color:#cdcdcd;
+}
+
+#loginform .loginbox-in p.text {
+width:100%;
+margin:20px 0;
+float:left;
+}
+
+.changepassword #loginform span.left {
+width:168px!important;
+}
+
+.changepassword #loginform input#loginpass1,
+.changepassword #loginform input#loginpass2 {
+width:290px!important;
+}
+
+.changepassword #loginform p.submit {
+margin-top:20px;
+margin-bottom:0;
+text-align:center;
+}
+
+/* -------------------------------------------------------------- */
+
+
+/* 【memberpage】 --------------- */
+
+#memberpages #memberinfo table {
+width:100%;
+vertical-align:middle;
+border-collapse:collapse;
+float:left;
+}
+
+#memberpages #memberinfo .memberinfo-in table {
+margin-bottom:40px;
+}
+
+#memberpages #memberinfo .memberinfo-in th {
+width:150px;
+padding:10px;
+background:#e6e6e6;
+border-bottom:2px solid #fff;
+text-align:left;
+font-weight:bold;
+}
+
+#memberpages #memberinfo .memberinfo-in td {
+padding:10px;
+border-bottom:2px solid #fff;
+text-align:left;
+}
+
+#memberpages #memberinfo ul.member_submenu {
+width:100%;
+margin-bottom:40px;
+float:left;
+}
+
+#memberpages #memberinfo ul.member_submenu li.edit_member {
+width:48%;
+float:left;
+}
+
+#memberpages #memberinfo ul.member_submenu li.logout_member {
+width:48%;
+float:right;
+}
+
+#memberpages #memberinfo ul.member_submenu li.edit_member a {
+padding:7px 0;
+font-size:16px;
+float:right;
+}
+
+#memberpages #memberinfo ul.member_submenu li.logout_member a {
+padding:7px 0;
+font-size:16px;
+float:left;
+}
+
+#memberinfo .header_explanation {
+margin-bottom:30px;
+}
+
+#memberpages #memberinfo .history-area {
+height:500px;
+margin-bottom:40px;
+overflow-y:scroll;
+float:left;
+}
+
+#memberpages #memberinfo .history-area table.retail {
+margin-bottom:40px;
+}
+
+#memberpages #memberinfo .history-area table.retail th {
+background:#e6e6e6;
+vertical-align:middle!important;
+}
+
+#memberpages #memberinfo .history-area table.retail td {
+padding:10px;
+vertical-align:middle!important;
+}
+
+#memberpages #memberinfo .history-area table.retail td.productname {
+text-align:left;
+}
+
+#memberpages #memberinfo .history-area table.retail td.thumbnail {
+text-align:center;
+}
+
+#memberpages #memberinfo .history-area th {
+width:auto!important;
+padding:5px;
+border:1px solid #fff;
+font-size:13px;
+}
+
+#memberpages #memberinfo #history_head th {
+color:#fff;
+}
+
+#memberpages #memberinfo #history_head td {
+padding:10px;
+}
+
+#memberpages #memberinfo .currency_code {
+width:100%;
+margin-bottom:5px;
+text-align:right;
+float:left;
+}
+
+#memberinfo .error_message {
+margin-bottom:0!important;
+}
+
+#memberinfo table.customer_form {
+text-align:left;
+}
+
+#memberinfo #name_row td,
+#memberinfo #furikana_row td {
+width:50%!important;
+display:inline-block;
+box-sizing:border-box;
+}
+
+#memberinfo #name_row td input,
+#memberinfo #furikana_row input {
+width:200px!important;
+margin-left:10px;
+}
+
+#memberinfo #zipcode_row input,
+#memberinfo #address1_row input,
+#memberinfo #address2_row input,
+#memberinfo #address3_row input,
+#memberinfo #tel_row input,
+#memberinfo #fax_row input,
+#memberinfo input#password1,
+#memberinfo input#password2 {
+margin-bottom:10px;
+}
+
+#memberinfo #search_zipcode {
+margin-right:10px;
+}
+
+/* -------------------------------------------------------------- */
+
+
+/* 【cart】 --------------- */
+
+.no_cart {
+width:100%;
+text-align:center;
+font-size:18px;
+font-weight:bold;
+float:left;
+}
+
+.usccart_navi {
+width:100%;
+margin-bottom:40px;
+text-align:center;
+float:left;
+}
+
+.usccart_navi ol {
+width:100%;
+}
+
+.usccart_navi li {
+width:25%;
+padding:10px 0;
+background:#e6e6e6;
+float:left;
+}
+
+.usccart_navi li.usccart_cart,
+.usccart_navi li.usccart_customer,
+.usccart_navi li.usccart_confirm,
+.usccart_navi li.usccart_delivery {
+color:#fff;
+}
+
+#cart .upbutton {
+width:100%;
+margin-bottom:10px;
+text-align:right;
+float:left;
+}
+
+#cart table#cart_table {
+width:100%;
+text-align:center;
+vertical-align:middle!important;
+border-collapse:collapse!important;
+font-size:12px;
+}
+
+#cart table#cart_table th {
+padding:10px;
+background:#f3f3f3;
+border:1px solid #e6e6e6;
+font-weight:bold;
+vertical-align:middle!important;
+}
+
+#cart table#cart_table td {
+padding:10px;
+border:1px solid #e6e6e6;
+vertical-align:middle!important;
+}
+
+#cart table#cart_table input.quantity {
+width:40px;
+padding:8px 5px;
+text-align:center;
+background:#f0f0f0;
+border:1px solid #e6e6e6;
+box-sizing:border-box;
+transition:0.7s;
+-webkit-transition:0.7s;
+-moz-transition:0.7s;
+-o-transition:0.7s;
+-ms-transition:0.7s;
+}
+
+#cart table#cart_table input.quantity:hover {
+background:#fff;
+border:1px solid #ccc;
+}
+
+#cart .currency_code {
+width:40%;
+margin-top:10px;
+text-align:right;
+float:right;
+}
+
+#cart table#cart_table td.subtotal {
+font-weight:bold;
+color:red;
+}
+
+#cart table#cart_table td.productname {
+width:250px;
+text-align:left;
+}
+
+#cart table#cart_table th.total {
+text-align:right;
+}
+
+#cart table#cart_table input.delButton {
+padding:2px 3px;
+font-size:11px;
+}
+
+#cart .usces-gp {
+width:60%;
+margin:10px 0;
+float:left;
+}
+
+#cart .usces-gp img {
+margin-right:5px;
+float:left;
+}
+
+#inside-cart .send {
+margin:30px 0;
+}
+
+#inside-cart .send input#paypal_button {
+width:auto;
+padding:0;
+background:none;
+border:0;
+}
+
+#inside-cart .send input#paypal_button:hover {
+background:none;
+border:0;
+}
+
+/* -------------------------------------------------------------- */
+
+
+/* 【cart in delivery】 --------------- */
+
+#delivery-info table.customer_form dt,
+#delivery-info table.customer_form dd {
+width:100%;
+float:left;
+}
+
+#delivery-info table.customer_form dt {
+margin-top:5px;
+}
+
+#delivery-info table.customer_form dd {
+margin-bottom:5px;
+}
+
+#delivery-info table.customer_form dd div {
+line-height:55px;
+float:left;
+}
+
+#delivery-info table.customer_form dd div img {
+width:140px;
+height:auto;
+margin-right:10px;
+}
+
+#delivery-info #name_row td,
+#delivery-info #furikana_row td {
+width:50%!important;
+display:inline-block;
+box-sizing:border-box;
+}
+
+#delivery-info #name_row td input,
+#delivery-info #furikana_row input {
+width:200px!important;
+margin-left:10px;
+}
+
+#delivery-info #zipcode_row input,
+#delivery-info #address1_row input,
+#delivery-info #address2_row input,
+#delivery-info #address3_row input,
+#delivery-info #tel_row input,
+#delivery-info #fax_row input {
+margin-bottom:10px;
+}
+
+#delivery-info #search_zipcode {
+margin-right:10px;
+}
+
+/* -------------------------------------------------------------- */
+
+
+/* 【cart in customer】 --------------- */
+ 
+#customer-info #name_row td,
+#customer-info #furikana_row td {
+width:50%!important;
+display:inline-block;
+box-sizing:border-box;
+}
+
+#customer-info #name_row td input,
+#customer-info #furikana_row input {
+width:200px!important;
+margin-left:10px;
+}
+
+#customer-info #zipcode_row input,
+#customer-info #address1_row input,
+#customer-info #address2_row input,
+#customer-info #address3_row input,
+#customer-info #tel_row input,
+#customer-info #fax_row input {
+margin-bottom:10px;
+}
+
+#customer-info #search_zipcode {
+margin-right:10px;
+}
+
+#customer-info input:placeholder-shown {
+color:#cdcdcd;
+}
+
+#customer-info input::-moz-input-placeholder {
+color:#cdcdcd;
+}
+
+#customer-info input::-webkit-input-placeholder {
+color:#cdcdcd;
+}
+
+#customer-info input:-ms-input-placeholder {
+color:#cdcdcd;
+}
+
+.customer-member {
+width:100%;
+margin-bottom:40px;
+float:left;
+}
+
+.customer-nomember input[type="password"]{
+margin-right:10px;
+}
+
+/* -------------------------------------------------------------- */
+
+
+/* 【cart in confirm】 --------------- */
+
+.confiem_notice {
+width:100%;
+margin-top:40px;
+text-align:center;
+font-weight:bold;
+font-size:17px;
+color:red;
+float:left;
+}
+
+table#confirm_table td {
+border-bottom:2px solid #e6e6e6;
+}
+
+#info-confirm table#confirm_table tr.ttl td,
+#info-confirm table#confirm_table td.ttl {
+border:0;
+color:#fff;
+}
+
+#info-confirm table#confirm_table tr.bdc td {
+background:#ffe7e7;
+}
+
+#info-confirm #cart_table tfoot .left {
+text-align:right;
+}
+
+#info-confirm table#point_table {
+margin:0 auto 40px;
+border:1px solid #e6e6e6;
+border-collapse:collapse;
+}
+
+#info-confirm table#point_table td {
+padding:10px;
+border:1px solid #e6e6e6;
+text-align:center;
+}
+
+#info-confirm table#point_table td span.point {
+font-weight:bold;
+color:red;
+}
+
+#info-confirm input.use_point_button {
+margin:0 auto;
+padding:10px 5px;
+}
+
+#info-confirm input.used_point {
+width:150px;
+margin-right:5px;
+padding:8px 5px;
+background:#f0f0f0;
+border:1px solid #e6e6e6;
+box-sizing:border-box;
+transition:0.7s;
+-webkit-transition:0.7s;
+-moz-transition:0.7s;
+-o-transition:0.7s;
+-ms-transition:0.7s;
+}
+
+#info-confirm .send input[type="image"] {
+width:auto;
+padding:0;
+background:none;
+border:0;
+}
+
+#info-confirm .send input[type="image"]:hover {
+background:none;
+border:0;
+}
+
+/* -------------------------------------------------------------- */
+
+
+/* 【cart in completion】 --------------- */
+
+.completion-text {
+width:100%;
+margin-top:40px;
+text-align:center;
+float:left;
+}
+
+.completion-text h3 {
+margin-bottom:10px;
+font-weight:bold;
+font-size:20px;
+}
+
+/* -------------------------------------------------------------- */
+
+
+/* 【cart in error】 --------------- */
+
+#error-page h2 {
+width:100%;
+font-weight:bold;
+font-size:20px;
+text-align:center;
+float:left;
+}
+
+/* -------------------------------------------------------------- */
+
+
+/* 【item search composite】 --------------- */
+
+#searchbox form {
+width:100%;
+text-align:center;
+float:left;
+}
+
+#searchbox form .outlabel {
+width:100%;
+margin-bottom:20px;
+text-align:left;
+font-weight:bold;
+font-size:18px;
+float:left;
+}
+
+#searchbox fieldset {
+margin-bottom:20px;
+padding:20px;
+text-align:left;
+}
+
+#searchbox legend {
+padding:0 20px;
+font-weight:bold;
+font-size:18px;
+}
+
+#searchbox fieldset ul {
+width:100%;
+margin-bottom:20px;
+float:left;
+}
+
+#searchbox fieldset ul li {
+width:25%;
+float:left;
+}
+
+#searchbox input.usces_search_button {
+width:230px;
+margin:0 auto;
+padding:10px 0;
+background:#fff;
+font-size:16px;
+font-weight:bold;
+cursor:pointer;
+outline:none;
+transition:0.6s;
+-webkit-transition:0.6s;
+-moz-transition:0.6s;
+-o-transition:0.6s;
+-ms-transition:0.6s;
+}
+
+#searchbox input.usces_search_button:hover {
+border:1px solid #fff;
+color:#fff;
+}
+
+#searchbox .navigation {
+margin-bottom:20px;
+}
+
+#searchbox .title {
+width:100%;
+margin-bottom:20px;
+float:left;
+}
+
+/* -------------------------------------------------------------- */
+
+
+/**************************************************
+***************************************************
+width:[1200px] or less.
+***************************************************
+**************************************************/
+
+@media screen and (max-width:1200px){
+
+#memberpages #newmember #name_row td input,
+#memberpages #newmember #furikana_row input {
+width:70%!important;
+}
+
+#memberpages #memberinfo .history-area {
+width:100%;
+font-size:10px;
+}
+
+#memberpages #memberinfo .history-area th {
+font-size:10px;
+}
+
+#memberinfo #name_row td input,
+#memberinfo #furikana_row input {
+width:70%!important;
+}
+
+#delivery-info #name_row td input,
+#delivery-info #furikana_row input {
+width:70%!important;
+}
+
+#customer-info #name_row td input,
+#customer-info #furikana_row input {
+width:70%!important;
+}
+
+}
+
+/**************************************************
+***************************************************
+width:[500px] or less.
+***************************************************
+**************************************************/
+
+@media screen and (max-width:500px){
+
+.send input.continue_shopping_button,
+.send input.to_customerinfo_button,
+.send input.back_to_customer_button,
+.send input.to_confirm_button,
+.send input.back_to_delivery_button,
+.send input.checkout_button,
+.send input.back_cart_button,
+.send input.to_deliveryinfo_button,
+.send input.to_reganddeliveryinfo_button {
+width:45%!important;
+}
+
+.send input.to_reganddeliveryinfo_button {
+margin-top:10px;
+}
+
+table.customer_form th,
+table#confirm_table th {
+width:100%;
+float:left;
+box-sizing:border-box;
+}
+
+table.customer_form td,
+table#confirm_table td {
+width:100%;
+padding:5px 0 20px;
+float:left;
+box-sizing:border-box;
+}
+
+#memberpages div.loginbox {
+width:90%;
+}
+
+#memberpages .loginbox-in {
+width:100%;
+box-sizing:border-box;
+}
+
+#loginform span.left {
+width:100%;
+padding:5px 0;
+}
+
+#loginform input#loginmail,
+#loginform input#loginpass,
+#loginform input#loginpass1,
+#loginform input#loginpass2 {
+width:100%;
+}
+
+.changepassword #loginform span.left,
+.changepassword #loginform input#loginpass1,
+.changepassword #loginform input#loginpass2 {
+width:100%!important;
+}
+
+#memberpages #memberinfo .memberinfo-in table {
+margin-bottom:20px;
+}
+
+#memberpages #memberinfo .memberinfo-in th {
+width:100%;
+float:left;
+box-sizing:border-box;
+}
+
+#memberpages #memberinfo .memberinfo-in td {
+width:100%;
+float:left;
+box-sizing:border-box;
+}
+
+#memberpages #memberinfo ul.member_submenu li.edit_member,
+#memberpages #memberinfo ul.member_submenu li.logout_member {
+width:48%;
+}
+
+#memberpages #memberinfo ul.member_submenu li.edit_member a,
+#memberpages #memberinfo ul.member_submenu li.logout_member a {
+width:90%;
+font-size:13px;
+box-sizing:border-box;
+}
+
+#memberpages #memberinfo .history-area table.retail td.thumbnail img {
+width:24px;
+height:auto;
+}
+
+.usccart_navi {
+font-size:10px;
+}
+
+#cart .upbutton {
+font-size:12px;
+}
+
+#cart table#cart_table {
+font-size:8px;
+}
+
+#wc_cart table#cart_table th.thumbnail,
+#wc_cart table#cart_table td.thumbnail {
+display:none;
+}
+
+#cart table#cart_table input.quantity {
+width:30px;
+}
+
+#cart table#cart_table input.delButton {
+padding:2px 1px;
+font-size:7px;
+}
+
+#inside-cart .send {
+margin:10px 0;
+}
+
+#cart .usces-gp {
+font-size:10px;
+}
+
+#wc_confirm td.thumbnail img {
+width:30px;
+height:auto;
+}
+
+#info-confirm table#confirm_table tr.ttl td,
+#info-confirm table#confirm_table td.ttl {
+padding:5px 10px;
+box-sizing:border-box;
+}
+
+#info-confirm table#confirm_table tr.bdc td {
+background:none;
+color:red;
+font-weight:bold;
+}
+
+#searchbox fieldset {
+padding:5px;
+}
+
+#searchbox legend {
+padding:0 10px;
+font-size:13px;
+}
+
+#searchbox fieldset ul li {
+width:50%;
+font-size:12px;
+}
+
+}

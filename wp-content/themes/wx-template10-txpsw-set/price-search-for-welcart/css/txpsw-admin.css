@@ -1,0 +1,327 @@
+@charset "utf-8";
+/*-------------- Can not delete / edit ---------------------------------------------
+
+Plugin Name: TX Price Search for Welcart
+Plugin URI: https://templx.com/
+Description: It is only for this plugin: Welcart e-Commerce.
+Author: TEMPLX
+Author URI: https://templx.com/
+License: GPLv2 or later
+
+///////////////////////////////////////////////////////////////////
+Copyright is still in TEMPLX even after purchase.
+We will prohibit change / deletion of copyright owner and URL etc.
+///////////////////////////////////////////////////////////////////
+
+--------------- Can not delete / edit --------------------------------------------- */
+
+/*********************************************************************
+txpsw_page
+*********************************************************************/
+
+#txpsw-admin p {
+margin:0;
+}
+
+#txpsw-admin {
+width:98%;
+margin:0 auto;
+}
+
+#txpsw-admin-title {
+width:100%;
+margin:30px auto;
+padding:20px;
+background:#eeeeee;
+border: solid #dbdbdb 1px;
+box-sizing:border-box;
+}
+
+#txpsw-admin-title p.title {
+margin-bottom:20px;
+}
+
+#txpsw-admin-title p.title:before {
+padding-right:5px;
+content:'■';
+}
+
+#txpsw-admin-title p.note {
+margin-top:5px;
+color:red;
+}
+
+#txpsw-admin-title input {
+width:300px;
+}
+
+#txpsw-admin-input-text {
+width:100%;
+padding:20px;
+background:#eeeeee;
+border:solid #dbdbdb 1px;
+box-sizing:border-box;
+}
+
+#txpsw-admin-input-text p {
+margin:8px 0;
+}
+
+#txpsw-admin-input-text p:last-child {
+margin:8px 0 0;
+}
+
+#txpsw-admin-input-text p.title {
+margin:0 0 20px;
+}
+
+#txpsw-admin-input-text p.title:before {
+padding-right:5px;
+content:'■';
+}
+
+#txpsw-admin-input-text span {
+padding:0 3px 0 5px;
+font-size:18px;
+}
+
+#txpsw-admin-input-text p.note {
+margin-top:5px;
+color:red;
+}
+
+#txpsw-admin-input-text p label {
+vertical-align:0.1em!important;
+}
+
+#txpsw-admin-input-css-check,
+#txpsw-admin-input-form-check,
+#txpsw-admin-templx-display {
+width:100%;
+margin:30px 0 10px;
+padding:20px;
+background:#eeeeee;
+border: solid #dbdbdb 1px;
+box-sizing:border-box;
+}
+
+#txpsw-admin-input-css-check p.title,
+#txpsw-admin-templx-display p.title {
+margin:0 0 20px;
+}
+
+#txpsw-admin-input-css-check p.title:before,
+#txpsw-admin-input-form-check p.title:before,
+#txpsw-admin-templx-display p.title:before {
+padding-right:5px;
+content:'■';
+}
+
+#txpsw-admin-input-form-check p.title {
+margin:0 0 20px;
+}
+
+#txpsw-admin-input-form-check p.form {
+margin:0 0 20px;
+}
+
+#txpsw-admin-input-form-check p.note {
+margin:5px 0 0;
+color:red;
+}
+
+#txpsw-update-text-templx {
+width:100%;
+margin-top:30px;
+font-size:15px;
+}
+
+#txpsw-update {
+width:100%;
+margin-top:30px;
+display:table;
+}
+
+#txpsw-update-button,
+#txpsw-update-text {
+display:table-cell;
+vertical-align:middle;
+}
+
+#txpsw-update-button p {
+margin-right:10px;
+font-size:20px;
+color:red;
+}
+
+#txpsw-admin-description {
+width:100%;
+margin:30px 0 10px;
+padding:20px;
+background:#eeeeee;
+border: solid #dbdbdb 1px;
+box-sizing:border-box;
+}
+
+#txpsw-admin-description p.title {
+margin-bottom:20px;
+}
+
+#txpsw-admin-description p.title:before {
+padding-right:5px;
+content:'■';
+}
+
+.txpsw-admin-description-box {
+width:100%;
+margin-top:20px;
+padding:20px;
+background:#fff;
+box-sizing:border-box;
+}
+
+.txpsw-admin-description-box p.txpsw-admin-description-box-title {
+width:100%;
+padding:0;
+border-bottom:0;
+font-size:15px;
+}
+
+.txpsw-admin-description-box p.txpsw-admin-description-box-title:before {
+padding-right:5px;
+content:'●';
+vertical-align:0.08em!important;
+}
+
+.txpsw-admin-description-box p {
+width:100%;
+padding:20px 0;
+border-bottom:1px solid #f0f0f0;
+display:inline-block;
+}
+
+.txpsw-admin-description-box p:last-child {
+padding:20px 0 0;
+border-bottom:0;
+}
+
+.txpsw-admin-description-box p:before {
+padding-right:3px;
+content:'・';
+}
+
+.txpsw-admin-description-box span {
+margin-top:10px;
+margin-left:16px;
+padding:7px 30px;
+background:#f0f0f0;
+font-weight:bold;
+font-size:15px;
+display:inline-block;
+}
+
+input.txpsw_prices_submit {
+font-size:18px;
+height:50px;
+line-height:50px;
+padding:0 34px;
+background:#c1c1c1;
+border-style:none;
+font-weight:bold;
+cursor:pointer;
+outline:none;
+border-radius:3px;
+-webkit-border-radius:3px;
+-moz-border-radius:3px;
+}
+
+input.txpsw_prices_submit:hover {
+background:#5a5a5a;
+color:#fff;
+}
+
+/*********************************************************************
+widget
+*********************************************************************/
+
+#txpsw-admin-page-widget p {
+margin:0;
+}
+
+label.txpsw-admin-widget-onoff-title:before,
+#txpsw-admin-widget-title label:before,
+label.txpsw-admin-widget-input-text-title:before,
+label.txpsw-admin-widget-input-check-title:before {
+padding-right:3px;
+content:'■';
+}
+
+#txpsw-admin-widget-onoff {
+width:100%;
+margin:20px 0;
+padding-bottom:20px;
+border-bottom:1px solid #f0f0f0;
+display:inline-block;
+}
+
+#txpsw-admin-widget-onoff label {
+padding-right:15px;
+}
+
+label.txpsw-admin-widget-onoff-title {
+width:100%;
+margin-bottom:5px;
+padding:0;
+display:inline-block;
+}
+
+#txpsw-admin-widget-title,
+#txpsw-admin-widget-input-text {
+width:100%;
+margin:0 0 20px;
+padding-bottom:20px;
+border-bottom:1px solid #f0f0f0;
+display:inline-block;
+}
+
+#txpsw-admin-widget-title label,
+label.txpsw-admin-widget-input-text-title,
+label.txpsw-admin-widget-input-check-title {
+width:100%;
+margin-bottom:5px;
+display:inline-block;
+}
+
+#txpsw-admin-widget-title input {
+width:100%;
+}
+
+#txpsw-admin-widget-input-text p {
+margin:0 0 5px;
+}
+
+#txpsw-admin-widget-input-text p:last-child {
+margin:0;
+}
+
+#txpsw-admin-widget-input-text p label {
+vertical-align:0.08em!important;
+}
+
+#txpsw-admin-widget-input-text span {
+padding:0 3px;
+}
+
+#txpsw-admin-widget-input-text input {
+width:40%;
+}
+
+#txpsw-admin-widget-input-check {
+width:100%;
+margin:0 0 40px;
+display:inline-block;
+}
+
+#txpsw-admin-widget-input-check p {
+margin-top:10px;
+}

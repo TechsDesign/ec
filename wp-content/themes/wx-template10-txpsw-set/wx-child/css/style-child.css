@@ -1,0 +1,15 @@
+@charset "utf-8";
+/**************************************************
+All Page
+
+Css of the child theme takes precedence over "setting 4 (Color 1)".
+「設定4 (Color1)」よりも子テーマのcssが優先されます。
+**************************************************/
+
+/*************************************************
+[example]
+header.site-header h1,
+header.site-header p.title {
+color:#cccccc;
+}
+**************************************************/

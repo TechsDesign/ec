@@ -1,0 +1,137 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TX Price Search for Welcart\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: TEMPLX <web@templx.com>\n"
+"Language-Team: TEMPLX <web@templx.com>\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: japanese\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"MIME-Version: 1.0\n"
+
+msgid "TX Price Search for Welcart"
+msgstr "価格絞り込み"
+
+msgid "plug-in [TX Price Search for Welcart]"
+msgstr "プラグイン「TX Price Search for Welcart」"
+
+msgid ""
+"Please change the theme, change the plugin, register / change item price "
+"etc. Please execute UPDATE."
+msgstr ""
+"テーマを変更、プラグインを変更、商品価格の登録・変更など行った場合はUPDATEを"
+"実行してください。"
+
+msgid ""
+"When you validated plug in, please carry out UPDATE when the registration / "
+"changes of the product price reach."
+msgstr ""
+"プラグインを有効にした際と商品価格の登録・変更など行った場合はUPDATEを実行し"
+"てください。"
+
+msgid "It may take time to update."
+msgstr "UPDATEにはお時間がかかる事があります。"
+
+msgid "It was updated."
+msgstr "更新されました。"
+
+msgid "It was not updated."
+msgstr "更新されませんでした。"
+
+msgid "Please input a title."
+msgstr "タイトルを入力してください。"
+
+msgid "*Leave blank if not required"
+msgstr "*必要のない場合は空欄"
+
+msgid "Please input a price to narrow it down."
+msgstr "絞り込む為の価格を入力してください。"
+
+msgid "or more"
+msgstr "以上"
+
+msgid "Do not use CSS on front page."
+msgstr "フロントページでCSSを使用しない。"
+
+msgid "Display forms that end users can search"
+msgstr "エンドユーザーが検索できるフォームを表示する"
+
+msgid "Do not use CSS"
+msgstr "CSSを使用しない"
+
+msgid "Text"
+msgstr "テキスト"
+
+msgid "Display on the sort button(TEMPLX only)"
+msgstr "ソートボタンの上に表示する(TEMPLX専用)"
+
+msgid "Use short code"
+msgstr "ショートコードを使用"
+
+msgid ""
+"When you write a short code in a fixed page, posting page, php file [TX "
+"Price Search for Welcart] is displayed."
+msgstr ""
+"固定ページや投稿ページ、phpファイルにショートコードを記述すると「価格絞り込"
+"み」が表示されます。"
+
+msgid "When used in fixed page and posting page"
+msgstr "固定ページと投稿ページで使用する場合"
+
+msgid "When writing in php file"
+msgstr "phpファイルに記述する場合"
+
+msgid "Use the title entered in [TX Price Search for Welcart]"
+msgstr "「価格絞り込み」で入力したタイトルを使用する"
+
+msgid "Change title with short code"
+msgstr "ショートコードでタイトルを変更する"
+
+msgid "Filter by price"
+msgstr "価格で絞り込み"
+
+msgid "Price Search For Welcart"
+msgstr "価格絞り込み"
+
+msgid "Use the [TX Price Search for Welcart] setting"
+msgstr "「価格絞り込み」の設定を使用する"
+
+msgid "Enter Title"
+msgstr "タイトルを入力"
+
+msgid "Forms that end users can search"
+msgstr "エンドユーザーが検索できるフォーム"
+
+msgid "Indicate"
+msgstr "表示する"
+
+msgid "USD"
+msgstr "円"
+
+msgid "Search"
+msgstr "検索"
+
+msgid "Price Search"
+msgstr "価格で検索"
+
+msgid "New"
+msgstr "新着"
+
+msgid "Price High"
+msgstr "価格が高い"
+
+msgid "Price Low"
+msgstr "価格が安い"
+
+msgid "Stock High"
+msgstr "在庫が多い"
+
+msgid "Stock Low"
+msgstr "在庫が少ない"
+
+msgid "Title"
+msgstr "タイトル順"

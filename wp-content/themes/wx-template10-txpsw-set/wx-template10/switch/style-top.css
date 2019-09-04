@@ -1,0 +1,519 @@
+@charset "utf-8";
+
+/**************************************************
+Top Page Only
+**************************************************/
+
+/*【top-space】 --------------- */
+
+#top-space {
+width:270px;
+height:300px;
+padding:15px;
+text-align:left;
+color:#fff;
+position:absolute;
+right:0;
+top:50%;
+z-index:1;
+border-radius:5px;
+-webkit-border-radius:5px;
+-moz-border-radius:5px;
+box-shadow:8px 2px 18px 2px rgba(0,0,0,0.7);
+-moz-box-shadow:8px 2px 18px 2px rgba(0,0,0,0.7);
+-webkit-box-shadow:8px 2px 18px 2px rgba(0,0,0,0.7);
+transform:translate(-50%,-50%) rotate(15deg);
+-webkit-transform:translate(-50%,-50%) rotate(15deg);
+-moz-transform:translate(-50%,-50%) rotate(15deg);
+-ms-transform:translate(-50%,-50%) rotate(15deg);
+-o-transform:translate(-50%,-50%) rotate(15deg);
+}
+
+#top-space img {
+width:auto;
+height:auto;
+max-width:100%;
+}
+
+#top-space-arrow {
+width:100%;
+padding:10px 0 15px;
+text-align:center;
+float:left;
+}
+
+#top-space-arrow p.arrow {
+width:30px;
+height:30px;
+margin:0 auto;
+}
+
+#top-space-arrow p.arrow a {
+width:30px;
+height:30px;
+line-height:27px;
+color:#fff;
+border:2px solid #fff;
+border-radius:50px;
+-webkit-border-radius:50px;
+-moz-border-radius:50px;
+}
+
+#top-space-arrow p.arrow a:before {
+padding-left:1px;
+font-size:20px;
+font-family:"dashicons";
+content:"\f347";
+vertical-align:middle!important;
+}
+
+/* -------------------------------------------------------------- */
+
+
+/* 【main image】 --------------- */
+
+/*** slider ***/
+
+#main-img {
+width:100%;
+float:left;
+position:relative;
+overflow:hidden;
+}
+
+#main-img ul,
+#main-img ul li {
+float:left;
+display:inline;
+overflow:hidden;
+}
+
+.main-img-box {
+overflow:hidden;
+position:fixed;
+top:0;
+left:0;
+}
+
+.main-img-in {
+overflow:hidden;
+position:absolute;
+top:0;
+left:0;
+}
+
+#main-img ul li img {
+width:100%;
+min-width:100%;
+height:auto;
+float:left;
+}
+
+#main-img .prevslide,
+#main-img .nextslide {
+width:50px;
+height:50px;
+cursor:pointer;
+position:absolute;
+z-index:10;
+border-radius:100px;
+-webkit-border-radius:100px;
+-moz-border-radius:100px;
+}
+
+#main-img .prevslide {
+left:10px;
+}
+
+#main-img .prevslide:before {
+line-height:50px;
+font-size:30px;
+font-family:"dashicons";
+content:"\f340";
+vertical-align:middle!important;
+color:#fff;
+}
+
+#main-img .nextslide {
+right:10px;
+}
+
+#main-img .nextslide:before {
+line-height:50px;
+font-size:30px;
+font-family:"dashicons";
+content:"\f344";
+vertical-align:middle!important;
+color:#fff;
+}
+
+/*********************************
+ページングが必要ない場合
+※.wideimg-butをdisplay:none;にする
+**********************************/
+
+/*
+.wideimg-but {
+display:none!important;
+}
+*/
+
+.wideimg-but {
+width:100%;
+height:auto;
+text-align:center;
+position:absolute;
+left:0;
+bottom:20px;
+z-index:10;
+visibility:visible;
+overflow:hidden;
+}
+
+.wideimg-but p {
+width:13px;
+height:13px;
+margin:0 5px;
+border-radius:100px;
+-webkit-border-radius:100px;
+-moz-border-radius:100px;
+cursor:pointer;
+overflow:hidden;
+display:inline-block;
+z-index:10;
+}
+
+.wideimg-but p.slidebut {
+filter:alpha(opacity=80)!important;
+-moz-opacity:0.8!important;
+opacity:0.8!important;
+}
+
+/**********************************
+*********************************/
+
+
+/*** still ***/
+#main-still {
+width:100%;
+height:450px;
+float:left;
+overflow:hidden;
+position:relative;
+}
+
+#main-still-box {
+width:100%;
+overflow:hidden;
+float:left;
+position:fixed;
+top:0;
+left:0;
+}
+
+#main-still-box img {
+width:100%;
+height:auto;
+}
+
+/* -------------------------------------------------------------- */
+
+
+/* 【top content】 --------------- */
+
+#top-main {
+width:870px;
+text-align:left;
+float:right;
+}
+
+/* -------------------------------------------------------------- */
+
+
+/* 【top new post1】 --------------- */
+
+#top-post1 {
+width:100%;
+margin:40px 0 10px;
+float:left;
+}
+
+.txpost-advanced {
+width:100%;
+text-align:left;
+font-size:16px;
+color:#fff;
+float:left;
+position:relative;
+}
+
+#top-post1 h2 {
+width:100%;
+padding:8px 0;
+background:url(../images/title.png) repeat;
+float:left;
+}
+
+#top-post1 h2:before {
+padding:2px 2px 2px 4px;
+color:#fff;
+font-size:22px;
+font-family:"dashicons";
+content:"\f147";
+vertical-align:-0.22em!important;
+}
+
+#top-post1 #txpost-h2,
+#top-post1 #txpost {
+width:100%;
+float:left;
+}
+
+#top-post1 .txpost-box {
+width:100%;
+margin-bottom:1px;
+padding:15px 0;
+border-bottom:1px #9d9d9d dotted;
+float:left;
+}
+
+#top-post1 #txpost-h2 .txpost-box-in,
+#top-post1 #txpost .txpost-box-in {
+width:100%;
+text-align:left;
+}
+
+#top-post1 .txpost-thumbnail {
+width:160px;
+height:99px;
+float:left;
+} 
+
+#top-post1 .txpost-thumbnail p {
+width:140px;
+height:93px;
+float:left;
+overflow:hidden;
+}
+
+#top-post1 .txpost-thumbnail img {
+width:140px;
+height:auto;
+}
+
+#top-post1 #txpost-h2 .txpost-box-right,
+#top-post1 #txpost .txpost-box-right {
+width:710px;
+float:left;
+}
+
+#top-post1 .txpost-date,
+#top-post1 .txpost-title {
+width:100%;
+margin-bottom:5px;
+float:left;
+}
+
+#top-post1 .txpost-title a {
+font-weight:bold;
+}
+
+#top-post1 .txpost-title a:before {
+margin-right:3px;
+font-family:"dashicons";
+content:"\f522";
+vertical-align:middle!important;
+display:inline-block;
+}
+
+#top-post1 .top-posttags {
+width:80%;
+text-align:right;
+font-size:12px;
+color:#fff;
+float:right;
+}
+
+#top-post1 .top-posttags p {
+margin-left:5px;
+padding:0 5px;
+display:inline-block;
+}
+
+#top-post1 .top-posttags p a:before {
+margin-right:3px;
+font-family:"dashicons";
+content:"\f323";
+vertical-align:middle!important;
+}
+
+#top-post1 .top-posttags a {
+padding:0 0 0 2px;
+float:left;
+}
+
+.txpost-cat {
+font-size:13px;
+position:absolute;
+top:10px;
+right:10px;
+}
+
+.txpost-cat p a {
+color:#fff;
+}
+
+.txpost-cat p a:before {
+padding-right:5px;
+font-family:"dashicons";
+content:"\f318";
+vertical-align:-0.1em!important;
+}
+
+/* -------------------------------------------------------------- */
+
+
+/* 【top new item】 --------------- */
+
+#top-item {
+width:100%;
+margin-top:30px;
+text-align:center;
+float:left;
+}
+
+#top-item-in {
+width:100%;
+margin:15px auto 0;
+display:inline-block;
+position:relative;
+}
+
+#top-item h2 {
+width:100%;
+padding:8px 0;
+background:url(../images/title.png) repeat;
+float:left;
+}
+
+#top-item h2:before {
+padding:2px 2px 2px 4px;
+color:#fff;
+font-size:22px;
+font-family:"dashicons";
+content:"\f147";
+vertical-align:-0.22em!important;
+}
+
+#top-item .top-item-box {
+width:290px;
+text-align:center;
+display:inline-block;
+transition: top 1s ease, left 1s ease;
+-webkit-transition: top 1s ease, left 1s ease;
+-moz-transition: top 1s ease, left 1s ease;
+-o-transition: top 1s ease, left 1s ease;
+}
+
+#top-item .top-item-box-in {
+width:280px;
+margin:0 auto;
+padding-bottom:10px;
+background:#fff;
+border:1px solid #eaeaea;
+border-bottom:4px solid #eaeaea;
+display:inline-block;
+transition:0.7s;
+-webkit-transition:0.7s;
+-moz-transition:0.7s;
+-o-transition:0.7s;
+-ms-transition:0.7s;
+}
+
+#top-item .top-item-box-in:hover {
+box-shadow:0 2px 6px 3px rgba(0,0,0,0.3);
+-moz-box-shadow:0 2px 6px 3px rgba(0,0,0,0.3);
+-webkit-box-shadow:0 2px 6px 3px rgba(0,0,0,0.3);
+}
+
+.top-item-thumbnail {
+width:100%;
+height:270px;
+padding-top:10px;
+float:left;
+position:relative;
+}
+
+.top-item-thumbnail span.item-soldout img {
+background:rgba(0,0,0,0.5);
+position:absolute;
+left:50%;
+top:50%;
+z-index:1;
+transform:translate(-50%,-50%);
+-webkit-transform:translate(-50%,-50%);
+-moz-transform:translate(-50%,-50%);
+-ms-transform:translate(-50%,-50%);
+-o-transform:translate(-50%,-50%);
+}
+
+.top-item-title {
+width:260px;
+height:80px;
+margin:0 auto;
+display:inline-block;
+}
+
+.top-item-title h2.item-title,
+.top-item-title h3.item-title {
+width:100%;
+height:50px;
+margin-top:5px;
+text-align:left;
+float:left;
+}
+
+.top-item-title h2.item-title a,
+.top-item-title h3.item-title a {
+width:100%;
+float:left;
+word-wrap:break-word;
+}
+
+.top-item-price {
+width:100%;
+float:left;
+}
+
+.top-item-price p em {
+font-size:12px;
+}
+
+.top-item-price p span.price {
+font-weight:bold;
+color:red;
+}
+
+.top-item-price p span.soldout {
+font-weight:bold;
+}
+
+.top-item-cat {
+font-size:13px;
+position:absolute;
+top:10px;
+right:10px;
+}
+
+.top-item-cat p a {
+color:#fff;
+}
+
+.top-item-cat p a:before {
+padding-right:5px;
+font-family:"dashicons";
+content:"\f318";
+vertical-align:-0.1em!important;
+}
+
+/* -------------------------------------------------------------- */
